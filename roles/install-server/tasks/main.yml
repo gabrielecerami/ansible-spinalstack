@@ -42,8 +42,8 @@
   with_items:
     - jjb-openstack
 
-- name: Retrieve custom repositories (Spredzy)
-  git:  repo=https://github.com/Spredzy/{{ item }}.git
+- name: Retrieve custom repositories (whayutin)
+  git:  repo=https://github.com/weshayutin/{{ item }}.git
         dest=/tmp/{{ item }}
   with_items:
     - spinalstack-env
